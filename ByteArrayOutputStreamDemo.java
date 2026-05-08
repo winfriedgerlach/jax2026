@@ -1,6 +1,10 @@
 import static java.lang.IO.println;
 
-/// Run with Java 25+ (uses JEP 512: Compact Source Files and Instance Main Methods, cf. https://openjdk.org/jeps/512):
+/// Compare allocation behavior of JDK's `ByteArrayOutputStream` vs. Spring's `FastByteArrayOutputStream` when the
+/// written bytes exceed the initial buffer size.
+///
+/// Run with Java 25+, since this example uses
+/// [JEP 512: Compact Source Files and Instance Main Methods](https://openjdk.org/jeps/512):
 /// ```
 /// java ByteArrayOutputStreamDemo.java
 /// ```
