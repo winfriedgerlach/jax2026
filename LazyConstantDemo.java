@@ -4,8 +4,9 @@ import java.util.List;
 import static java.lang.IO.println;
 
 /// Run with Java 26 and enable preview features:
-///
-/// `.../openjdk-26/bin/java --enable-preview LazyConstantDemo.java`
+/// ```
+/// java --enable-preview LazyConstantDemo.java
+/// ```
 public class LazyConstantDemo {
 
     // this is certainly not the most clever use of a lazy constant, but it matches the talk and

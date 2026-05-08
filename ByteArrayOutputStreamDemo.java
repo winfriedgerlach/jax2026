@@ -1,8 +1,9 @@
 import static java.lang.IO.println;
 
 /// Run with Java 25+ (uses JEP 512: Compact Source Files and Instance Main Methods, cf. https://openjdk.org/jeps/512):
-///
-/// `java ByteArrayOutputStreamDemo.java`
+/// ```
+/// java ByteArrayOutputStreamDemo.java
+/// ```
 void main(String[] args) throws IOException {
     println("Usage: java ByteArrayOutputStreamDemo.java [numberOfBytesToWrite] [initialSize]");
     int numberOfBytesToWrite = 1500;
